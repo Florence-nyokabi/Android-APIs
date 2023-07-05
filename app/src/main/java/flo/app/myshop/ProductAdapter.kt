@@ -29,6 +29,7 @@ class ProductAdapter(var products: List<Product>):RecyclerView.Adapter<ProductVi
         Picasso
             .get()
             .load(myProduct.thumbnail)
+//            .placeholder(R.drawable.)
             .into(binding.ivThumbnail)
 
     }
