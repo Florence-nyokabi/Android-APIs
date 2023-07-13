@@ -1,4 +1,4 @@
-package flo.app.myshop
+package flo.app.myshop.model
 
 data class Product(
     var id: Int,
